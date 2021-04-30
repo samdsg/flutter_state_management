@@ -18,7 +18,7 @@ final store = new Store<AppState>(reducers,
 
 void main() => runApp(MyApp(
       store: store,
-      title: "Just title",
+      title: "Flutter State Management",
     ));
 
 class MyApp extends StatelessWidget {
